@@ -24,6 +24,6 @@ github_username:  yeswolf
 
 # Build settings
 markdown: kramdown
-theme: jekyll-theme-cayman
+theme: minimal-jekyll-theme
 plugins:
   - jekyll-feed
