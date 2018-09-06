@@ -1,5 +1,5 @@
 <footer class="flex justify-start items-baseline {% if page.sidebar %}mw8{% else %}mw7{% endif %} center w-100 ph3 ph4-ns mt4 mb2 lh-copy">
-  <nav class="flex flex-row flex-wrap">
+  <nav class="flex flex-row center flex-wrap">
     <span class="f7 fw3 silver mr3 ttc"><a href="{{ '/' | absolute_url }}" class="f7 fw5 silver hover-silver link underline-hover" title="{{ site.title }}">{{ site.title | capitalize }}</a> &copy; {{ site.time | date: '%Y' }}</span>
     {% if site.data.theme.navigation.footer %}
     {% for link in site.data.theme.navigation.footer %}
