@@ -5,6 +5,8 @@
 
  # Theme
  gem "minimal-jekyll-theme"
+ gem "jekyll-theme-cayman"
+ gem "kramdown-parser-gfm"
 
  # Plugins
  group :jekyll_plugins do
