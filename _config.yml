@@ -18,7 +18,6 @@ email: yeswolf@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   A blog of mobile developer, project and product manager making tools for developers.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: s_dombrovsky
 github_username:  yeswolf
 
@@ -32,3 +31,4 @@ disqus:
   # Leave shortname blank to disable comments site-wide.
   # Disable comments for any post by adding `comments: false` to that post's YAML Front Matter.
   shortname: yeswolf
+url: https://yeswolf.github.io
