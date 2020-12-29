@@ -47,6 +47,6 @@ text:
     caption           : Image
 
     # Home Layout Settings
-    post_limit        : 3
+    post_limit        : 300
     read_more         : Read more
     latest_articles   : Articles
