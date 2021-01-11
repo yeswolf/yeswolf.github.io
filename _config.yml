@@ -26,6 +26,7 @@ markdown: kramdown
 theme: jekyll-theme-cayman
 plugins:
   - jekyll-feed
+  - jekyll-sitemap
 # Disqus Comments
 disqus:
   # Leave shortname blank to disable comments site-wide.
