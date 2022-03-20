@@ -7,7 +7,7 @@
  gem "minimal-jekyll-theme"
  gem "jekyll-theme-cayman"
  gem "kramdown-parser-gfm"
-
+ gem "webrick"
  # Plugins
  group :jekyll_plugins do
    gem 'jekyll-feed'

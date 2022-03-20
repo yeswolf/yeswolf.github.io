@@ -3,8 +3,11 @@
 ################################
 navigation:
   main:
-  - title: About
-    url: /about/
+  - title: Short resume
+    url: /cv_short/
+  - title: Full resume
+    url: /cv_full/
+
 
 ################################
 # Attribution Link (Optional)
