@@ -47,6 +47,14 @@ Created Android version of Fotostrana dating app from scratch as a developer, ma
 
 Started as a QA and finished working as a senior developer with team lead responsibilities. Successfully finished 15+ mobile projects (Windows Mobile, Blackberry, iOS, Android). Developed Evernote for Blackberry for two years - created a full-featured mobile application from a simple web view wrapper.
 
+**Nokia Portfio Challenge**\
+**Created Evernote for Meego Harmattan** (November 2011 - December 2011)
+
+Created Evernote for Meego Harmattan and published the application to Nokia Store (so, won the "challenge"). 8k of installation all over the world. 
+
+After the Harmattan infrastructure went down, open-sourced the application code. Most of Evernote apps for Meego-based systems (such as [BlueWhale](https://github.com/locusf/bluewhale) or [EverSome](https://github.com/jpnurmi/eversome)) were using it as a starting point.
+
+
 ## Education
 
 [Novosibirsk State University](https://www.nsu.ru/), [rankings](https://www.nsu.ru/n/university/rankings/):
