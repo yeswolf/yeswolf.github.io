@@ -194,5 +194,5 @@ After the Harmattan infrastructure went down, open-sourced the application code.
 
 ## Other interests
 
-- I develop embedded projects in my spare time. Current area of interests is music gear with RFs for transmitting real-time audio over the air. 
+- I develop embedded projects in my spare time ([real-time audio](https://yeswolf.github.io/rf/) over the air). 
 - I enjoy riding my Ghost SE 1800 bike and playing my MusicMan Bongo 5. 
