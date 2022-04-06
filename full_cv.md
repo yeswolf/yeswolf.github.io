@@ -1,9 +1,10 @@
 ---
 layout: page
-title:  "Stanislav Dombrovsky"
 author: yeswolf
 permalink: /cv_full/
 ---
+# Stanislav Dombrovsky
+
 **Email**: yeswolf@gmail.com\
 **Phone**: +7 911 976 56 28\
 **TG**: [basic_87](https://t.me/basic_87)
