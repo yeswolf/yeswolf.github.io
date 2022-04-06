@@ -1,6 +1,7 @@
 ---
 layout: page
 author: yeswolf
+title: ""
 permalink: /cv_full/
 ---
 # Stanislav Dombrovsky
