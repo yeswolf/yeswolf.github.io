@@ -59,7 +59,7 @@ After the Harmattan infrastructure went down, open-sourced the application code.
 
 [Novosibirsk State University](https://www.nsu.ru/), [rankings](https://www.nsu.ru/n/university/rankings/):
 
-- Ph.D. Computer Science: 2009 - 2011
+- B.S. Computer Science: 2009 - 2011
 - M.S. Computer Science: 2004 - 2009
 
 ## Full version
