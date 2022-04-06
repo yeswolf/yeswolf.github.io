@@ -6,7 +6,18 @@
         {
             "label": "Run blog",
             "type": "shell",
-            "command": "bundler exec jekyll serve"
+            "command": "bundler exec jekyll serve",
+            "options": {
+                "cwd": "${workspaceFolder}"
+            },
+        }, 
+        {
+            "label": "Generate CV",
+            "type": "shell",
+            "command": "pandoc full_cv.md -o cv_full.pdf --pdf-engine=/Library/TeX/texbin/pdflatex --template eisvogel.latex -V disable-header-and-footer=true && pandoc short_cv.md -o cv_short.pdf --pdf-engine=/Library/TeX/texbin/pdflatex --template eisvogel.latex -V disable-header-and-footer=true && open cv_full.pdf cv_short.pdf",
+            "options": {
+                "cwd": "${workspaceFolder}"
+            },
         }
     ]
 }
