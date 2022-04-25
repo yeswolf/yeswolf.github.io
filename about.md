@@ -11,7 +11,7 @@ Projects / contributions / unsorted:
 
 - Evernote for Blackberry ([dead](https://evernote.com/blog/support-for-blackberry-and-windows-phone-end/)). It was a great time. From the website wrapper to the native app. I should write a story about it. 
 - EverN9 for Meego (reused in [Bluewhale](https://github.com/locusf/bluewhale)). And yes, I have a working N950 phone :)
-- [Semantic highlighting for Swift](https://blog.jetbrains.com/objc/2016/11/appcode-2016-3-eap-resolve/)
+- [Semantic highlighting for Swift](https://blog.jetbrains.com/appcode/2016/11/appcode-2016-3-eap-resolve/)
 - [SwiftLint plugin](https://github.com/bealex/SwiftLintAppCode)
 - Re-worked AppCode colors schemes and Xcode keymap / behavior part
 - Support for San Francisco fonts in JB JDK

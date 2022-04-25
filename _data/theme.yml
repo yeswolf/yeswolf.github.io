@@ -3,10 +3,12 @@
 ################################
 navigation:
   main:
-  - title: Short resume
+  - title: Short resume [EN]
     url: /cv_short/
-  - title: Full resume
+  - title: Full resume [EN]
     url: /cv_full/
+  - title: Full resume [RU]
+    url: /cv_full_ru/
 
 
 ################################

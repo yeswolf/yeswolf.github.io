@@ -32,15 +32,15 @@ Drove product marketing, built communication with developer teams and communitie
 **[e-legion](https://www.e-legion.com/)** (June 2014 — September 2015)\
 **Project manager (mobile apps)**
 
-Managed several complex mobile projects as a project manager from the very first protype and up to the the final product published in stores. Built a predictable pre-sale and development processes, that increased project revenue a lot. 
+Managed several complex mobile projects as a project manager from the very first prototype and up to the final product published in stores. Built a predictable pre-sale and development processes, that increased project revenue a lot. 
 
 **Goodwill Ltd** (February 2013 — January 2014)\
 **Team-lead (mobile apps)**
 
-Led mobile applications (food-dating apps for small crouds). Created a predictable development process, cut development costs in half. 
+Led mobile applications (food-dating apps for small crowds). Created a predictable development process, cut development costs in half. 
 
 **[Fotostrana](https://fotostrana.ru/)** (February 2012 — October 2012)\
-**Product developer (Android appliction)**
+**Product developer (Android application)**
 
 Created Android version of Fotostrana dating app from scratch as a developer, marketing specialist, product manager and one-man-for-everything. Top-50 in "Social networks" and top-10 in Google Play results (in Russia)
 
@@ -49,7 +49,7 @@ Created Android version of Fotostrana dating app from scratch as a developer, ma
 
 Started as a QA and finished working as a senior developer with team lead responsibilities. Successfully finished 15+ mobile projects (Windows Mobile, Blackberry, iOS, Android). Developed Evernote for Blackberry for two years - created a full-featured mobile application from a simple web view wrapper.
 
-**Nokia Portfio Challenge**\
+**Nokia Portfolio Challenge**\
 **Created Evernote for Meego Harmattan** (November 2011 - December 2011)
 
 Created Evernote for Meego Harmattan and published the application to Nokia Store (so, won the "challenge"). 8k of installation all over the world. 
