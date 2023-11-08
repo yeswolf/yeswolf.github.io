@@ -8,7 +8,7 @@ author_bio: false
 permalink: /proskit-ksger/
 ---
 
-This is a post about tuning of KSGER T12 controller for using with SS-331 desoldering gun. 
+This is a post about tuning of KSGER T12 controller for using with SS-331 desoldering gun - WIP. 
 
 ## Problem
 
