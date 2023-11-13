@@ -69,27 +69,39 @@ Yes, of course, you probably can do this scheme much better. But I'm lazy and th
 
 Some tips:
 
-- Without a dedicated termometer, you will burn something. Take one like this BEFORE YOU START.
+- Without a dedicated termometer, you will burn something. Take one [like this](https://sl.aliexpress.ru/p?key=SBufUxb) BEFORE YOU START. 
 - Without a current-limited supply you most probably will burn something again. Take one BEFORE YOU START.
 - Get used to quick putting the KSGER controller to sleep / standby state. Do it fast.
-- Or better make a resistor delimeter from 47 (0 C) to 150 (something around 400C for the gun heater). And first calibrate just the termoresistor reading with the heater disconnected. Yes, it works this way.
+- Or better make a resistor divider from 47 Ohm (0 C) to 150-156 Ohm (something around 400-420C for the gun heater). And first calibrate just the termoresistor reading with the heater disconnected. Yes, it works this way.
 - "INVERT" message tells you about the negative voltage on U3 input. Don't worry about it, though if you have it, you need to check voltages everywhere.
 - Note that the resistance of ther gun heater goes from 1.6 Ohm oh cold state (room temperature) to something around 3.5-4 Ohms with the temperature of 420C. That means that even if your 24V supply works fine after you already heated the gun to, say 300C, it will burn you controller when starting from cold when you have a spike of something like 12A.
 - Note that temperature of the gun nozzle is DIFFERENT on it's enclosure and on the tip. It's DIFFERENT. Measure the one on the tip. ALWAYS.
 
-The procedure:
+The procedure (with resistor divider that mimic our termoresistor):
 
 1. Assemble headrab, controller.
 2. Set your current-limited power supply to 12V.
-3. From the gun, connect only inputs 1 and 2 (T- and T+)
+3. Connect 47ohm resistor to T+ and T-
 4. Set potentiometers to some value (better to, say, maximum value both)
 5. First step for you is to achieve value close to zero on the POINT 1 output with the room temperature. For that you should have equals values on T+ and headcrab R5 output coming to op amp. Don't make this values less than a 1mv - too small. Dont' try to achieve total zero on POINT 1 - setup something like 0.3mV. AFAIR have something like 5-6 mV on both. Though, may be you will do better than me.
 6. Check that you have no INVERT message - turn it all off, turn it on again. If having INVERT, repeat the step 5.
 7. Check the temperature displayed. Tune RP3 to have something like 25-35 C.
 8. Turn the controller off.
-9. Connect pins 3 and 4 (heater).
-10. Put your head on controller knob and turn it on. I suggest to always quickly put the controller to sleep mode at this step.
-11. If nothing goes wrong, continue. If somethign burnt, smoke a sigarette and try again. If "INVERT" - tune initial values using RP1 and RP2 to achieve the value close to zero. 
+9. Connect 150-156 Ohm resistor to T+ and T-
+10. Tune RP3 to have something like 400-420C
+11. Re-check with 47 Ohm. If having same values as before you're fine. If not, find some golden values - initial value in celsius around 30-35C, maximum around 400C.
+12. Turn the controller off.
+13. Connect termoresistor (1 and 2) respectively to T+ and T-.
+14. Connect 3 and 4 to the ground on your GX aviation connector and 4 to 12v on the same connector.
+15. Put your hand on controller knob and be ready to immediately put it to sleep state by quick turning it left.
+16. Power everything on and put it to sleep state. If initial values are fine, continue. If not, find why not. Tip: if you have a floating ground like me, something like 100Ohm from the POINT 1 to ground will help you (though recalibration from the beginning will be needed probably).
+17. Set the target temperature to 150C and start heating. Measure the temperature with your termometer. If something goes wrong stop, turn off and think. Play with RP3 on the way (very carefully). If all is ok, repeat step 17 for 300C and 400C (probably until the 350 C since to achieve 400-420 you need something line 14V on your power supply). Anyway, 350 is totatlly fine.
+18. Put controller to sleep state, wait and see how the temperature goes down. The initial reading should be the same.
+19. Allow the gun to become cold and recalibrate if needed.
+20. Test, test, test and be ready to turn everything off fast on any step. Have I said this? Yes, please, be ready for that. And please be sure that your poweer supply is either current-limited or can handle up to 12V / 6A.
 
+## Pump
+
+I took this one 
 
 
