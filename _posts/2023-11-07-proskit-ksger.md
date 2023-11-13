@@ -10,7 +10,7 @@ permalink: /proskit-ksger/
 
 This is a post about tuning of KSGER T12 controller for using with SS-331 desoldering gun - WIP. 
 
-UNTIL ITS WIP DONT USE THIS ARTICLE PLEASE. Only as as an inspiration, otherwise I'm not responsible for your house burned, thanks. 
+**UNTIL ITS WIP DONT USE THIS ARTICLE PLEASE. Only as as an inspiration, otherwise I'm not responsible for your house burned, thanks.**
 
 ## Problem
 
@@ -26,6 +26,7 @@ As of now, you [can buy](https://sl.aliexpress.ru/p?key=lX5CUsZ) SS-331H handle 
 - 4 - red- heater vcc (24v)
 - 5, 6 - pump button pins
 - 7 - yellow - reed switch
+- green (to the case fo GX connector) - ground earth
 
 Termoresistor is about 47 ohms (something like 47.8 ohms). I'm pretty sure it's different, so measure it by yourself. Heater resistance is about 2ohms and be sure it will be bigger (AFAIR up to 3.5 ohms) as soon as it starts heating. What does it mean for you - it means that in case of 24v you will need some power supply that works fine with 12A spikes. Or do as me - take 12v power supply that works with 8A and don't care about burning power outlets. Be sure - on start you will have a spike of 6A, but it fastly becames 4-3A after the initial heating. So, this "fast" would be enough to kill a wear supply. In short, take [this one](https://sl.aliexpress.ru/p?key=qOXCUu8) and forget about all this problems. 
 
@@ -102,6 +103,14 @@ The procedure (with resistor divider that mimic our termoresistor):
 
 ## Pump
 
-I took this one 
+I took [this one](https://sl.aliexpress.ru/p?key=cCufU15), you may find another one. I've connected it using the typical "mosfet module with optocouple" just to save some time ([this one](https://createlabz.store/products/lr7843-mosfet-switch-control-module-optocoupler-isolation)). Nobody knows how to trigger the controller to see the pump (even though it has a dedicated menu), but still you don't need it since the SS-331 gun has a button for turning the pump on. Put it in series with 3V signal and you'r done. 
 
+## Connector 
 
+AFAIK GX with 7 pins is enough if you don't want to invent the ambient temp that means you will must change the default cable, re-crimp (yep, re-crimp and not resolder) it with the heater, and so on, and so on. I suggest not to deal with it and just don't add ambient temperature. The tilt switch is already inside, though works so-so. But AFAIK the sleep mode turns on fine, so it works at least somehow. 
+
+## How does it look
+
+Like this, and yes, it works fine:
+
+![image](https://github.com/yeswolf/yeswolf.github.io/assets/1262951/b8819bff-bbd7-4747-9380-38525f072ca4)
