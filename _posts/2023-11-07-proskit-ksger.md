@@ -53,6 +53,41 @@ You need the following headcrab schematics:
 
 ![image](https://github.com/yeswolf/yeswolf.github.io/assets/1262951/3e722be1-9c5e-4e9d-be55-41e6faaa4cb6)
 
+How does it work (to make things simple):
+
+- You have two potentiometers that allow to tune a) signal from the termoresistor b) from the 47om reference resistor. You need the latter to substract the initial resistance of termoresistor to have the scale starting with zero.
+- Opamp just does substraction of the signal from 47om resistor from the termoresistor signal
+- Opamp output is fed to the U3 through the point 1 on R12
+- On the left there is a potentiometer we apply to U3 to tune the final amplification
+- Use 3.3V contacts from display for example. Again, use the 3.3V line. 
+
+Yes, of course, you probably can do this scheme much better. But I'm lazy and this way I could tune everything easily. 
+
+## Headcrab calibration procedure
+
+Some tips:
+
+- Without a dedicated termometer, you will burn something. Take one like this BEFORE YOU START.
+- Without a current-limited supply you most probably will burn something again. Take one BEFORE YOU START.
+- Get used to quick putting the KSGER controller to sleep / standby state. Do it fast.
+- Or better make a resistor delimeter from 47 (0 C) to 150 (something around 400C for the gun heater). And first calibrate just the termoresistor reading with the heater disconnected. Yes, it works this way.
+- "INVERT" message tells you about the negative voltage on U3 input. Don't worry about it, though if you have it, you need to check voltages everywhere.
+- Note that the resistance of ther gun heater goes from 1.6 Ohm oh cold state (room temperature) to something around 3.5-4 Ohms with the temperature of 420C. That means that even if your 24V supply works fine after you already heated the gun to, say 300C, it will burn you controller when starting from cold when you have a spike of something like 12A.
+- Note that temperature of the gun nozzle is DIFFERENT on it's enclosure and on the tip. It's DIFFERENT. Measure the one on the tip. ALWAYS.
+
+The procedure:
+
+1. Assemble headrab, controller.
+2. Set your current-limited power supply to 12V.
+3. From the gun, connect only inputs 1 and 2 (T- and T+)
+4. Set potentiometers to some value (better to, say, maximum value both)
+5. First step for you is to achieve value close to zero on the POINT 1 output with the room temperature. For that you should have equals values on T+ and headcrab R5 output coming to op amp. Don't make this values less than a 1mv - too small. Dont' try to achieve total zero on POINT 1 - setup something like 0.3mV. AFAIR have something like 5-6 mV on both. Though, may be you will do better than me.
+6. Check that you have no INVERT message - turn it all off, turn it on again. If having INVERT, repeat the step 5.
+7. Check the temperature displayed. Tune RP3 to have something like 25-35 C.
+8. Turn the controller off.
+9. Connect pins 3 and 4 (heater).
+10. Put your head on controller knob and turn it on. I suggest to always quickly put the controller to sleep mode at this step.
+11. If nothing goes wrong, continue. If somethign burnt, smoke a sigarette and try again. If "INVERT" - tune initial values using RP1 and RP2 to achieve the value close to zero. 
 
 
 
