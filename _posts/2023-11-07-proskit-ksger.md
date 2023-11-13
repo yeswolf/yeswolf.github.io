@@ -44,5 +44,15 @@ Lots of people talk about different layouts, but the reality is that for now you
 
 ![image](https://github.com/yeswolf/yeswolf.github.io/assets/1262951/7a42cc4e-124d-44f5-bd72-b9c6781f4060)
 
+- Cut the trace at point one (lowest part of the resistor-combo). This way you disconnet termcouple sensor from 24V+
+- Remove the R5 resistor. This one is responsible for amplifying the signal and you will need to have a headcrab part for this specific place to mimic termocouple with the termoresistor.
+
+## From termoresistor to termocouple
+
+You need the following headcrab schematics:
+
+![image](https://github.com/yeswolf/yeswolf.github.io/assets/1262951/3e722be1-9c5e-4e9d-be55-41e6faaa4cb6)
+
+
 
 
