@@ -38,3 +38,11 @@ Same as me, you may be not familiar with all these "whats the difference". So, t
 
 Sounds complex, but in fact a single opamp is needed. 
 
+## KSGER 2.1s module
+
+Lots of people talk about different layouts, but the reality is that for now you'll find the only one [official one](https://sl.aliexpress.ru/p?key=T39fUG8). It doesn't have any zero ohm resistor or special place to support JBL. So, you will need to perform the following changes:
+
+![image](https://github.com/yeswolf/yeswolf.github.io/assets/1262951/7a42cc4e-124d-44f5-bd72-b9c6781f4060)
+
+
+
