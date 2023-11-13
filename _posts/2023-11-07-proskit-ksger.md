@@ -10,6 +10,8 @@ permalink: /proskit-ksger/
 
 This is a post about tuning of KSGER T12 controller for using with SS-331 desoldering gun - WIP. 
 
+UNTIL ITS WIP DONT USE THIS ARTICLE PLEASE. Only as as an inspiration, otherwise I'm not responsible for your house burned, thanks. 
+
 ## Problem
 
 So-called "affordable" desoldering guns are good enough, SS-331 may be "rather cheap" or "rather expensive", but finally you want a compact unit with normal handle to make a desoldering. And better - with some good controller. Such options are expensive. 
