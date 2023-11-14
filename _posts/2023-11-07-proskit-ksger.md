@@ -8,9 +8,7 @@ author_bio: false
 permalink: /proskit-ksger/
 ---
 
-This is a post about tuning of KSGER T12 controller for using with SS-331 desoldering gun - WIP. 
-
-**UNTIL ITS WIP DONT USE THIS ARTICLE PLEASE. Only as as an inspiration, otherwise I'm not responsible for your house burned, thanks.**
+This is a post about tuning of KSGER T12 controller for using with SS-331 desoldering gun. It's pretty correct, but if you follow it - you're doing it on your own risk.  
 
 ## Problem
 
@@ -114,3 +112,35 @@ AFAIK GX with 7 pins is enough if you don't want to invent the ambient temp that
 Like this, and yes, it works fine:
 
 ![image](https://github.com/yeswolf/yeswolf.github.io/assets/1262951/b8819bff-bbd7-4747-9380-38525f072ca4)
+
+## Bonus
+
+Temperature - resistance table:
+
+![image](https://github.com/yeswolf/yeswolf.github.io/assets/1262951/4fd5ba59-6bff-40b9-9fd8-5b68ee27b627)
+
+|Temp |Ohms|
+|---|---|
+|450|168|
+|430|156|
+|400|150|
+|380|138|
+|370|134|
+|360|133|
+|350|131|
+|340|129|
+|300|123|
+|240|90|
+|220|86|
+|200|83|
+|180|79|
+|160|73|
+|160|74|
+|150|72|
+|140|70|
+|130|68|
+|119|66|
+|100|63|
+|80|59|
+|70|57|
+|50|53|
