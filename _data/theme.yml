@@ -9,6 +9,8 @@ navigation:
     url: /cv_full/
   - title: Full resume [RU]
     url: /cv_full_ru/
+  - title: About me
+    url: /about/
 
 
 ################################
