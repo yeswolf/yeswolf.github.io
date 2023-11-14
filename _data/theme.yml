@@ -3,12 +3,6 @@
 ################################
 navigation:
   main:
-  - title: Short resume [EN]
-    url: /cv_short/
-  - title: Full resume [EN]
-    url: /cv_full/
-  - title: Full resume [RU]
-    url: /cv_full_ru/
   - title: About me
     url: /about/
 
