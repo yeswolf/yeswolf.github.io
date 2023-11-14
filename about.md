@@ -17,4 +17,9 @@ Projects / contributions / unsorted:
 - Support for San Francisco fonts in JB JDK
 - AppCode ([dead](https://blog.jetbrains.com/appcode/2022/12/appcode-2022-3-release-and-end-of-sales-and-support/). It was a dream job. Deserves a book, really.
 
+My CVs if you don't have time:
+
+- Short [EN](/cv_short/)
+- Full [EN](/cv_full_ru/), [RU](/cv_full/)
+
 I'm not open to any job offers outside Russia, Saint-Petersburg. Now working in Huawei. 
